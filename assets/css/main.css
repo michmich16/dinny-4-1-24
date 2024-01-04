@@ -94,6 +94,10 @@ section article a:hover {
   color: var(--active);
 }
 
+.noScroll {
+  overflow: hidden;
+}
+
 section article footer {
   text-align: right;
 }
