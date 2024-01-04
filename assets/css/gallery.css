@@ -3,28 +3,31 @@
   position: relative;
   width: 100%;
 }
+#gallery_image{
+  width: 100%;
+}
 #gallery_back{
   position: absolute;
   bottom: 40%;
 }
 #gallery_forward{
   position: absolute;
-  transform: rotate(270deg);
+  /* transform: rotate(90deg); */
   bottom: 40%;
   right: 0;
 }
 
 /* MEDIA QUERIES */
 /* OVER 800PX */
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .section-gallery div {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
 /* OVER 1200PX */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .section-gallery div {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+} */
