@@ -1,7 +1,7 @@
 // THE JAVASCRIPT
 
 // cookie modal
-// let cookieModal = document.getElementById("Cookie_container") //declare cookie_container as cookieModal
+// let cookieModal = document.getElementById("Cookie_container") //declare cookie_container as cookieModal (not use)
 document.getElementById("Cookie_container").style.display = "block"; //show cookie_container
 document.getElementById("myBody").classList.toggle("noScroll"); //block scrolling
 
