@@ -12,7 +12,7 @@ myForwardButton.addEventListener('click'), (e) => {
     myImageCount++;
 
     if (myImageCount >= myGallery.length) {
-        myImageCount = 0
+        myImageCount = 0;
     }
     showImage()
 }
