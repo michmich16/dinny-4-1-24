@@ -3,6 +3,7 @@
 // cookie modal
 let cookieModal = document.getElementById("Cookie_container")
 document.getElementById("Cookie_container").style.display ="block";
+document.getElementById("myBody").classList.toggle("noScroll");
 
 
 // displayModal("Cookie_container");
