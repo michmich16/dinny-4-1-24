@@ -1,21 +1,29 @@
 /* SECTION GALLERY */
+
 .section-gallery {
   position: relative;
   width: 100%;
 }
-#gallery_image{
+
+#gallery_image {
   width: 100%;
 }
-#gallery_back{
+
+#gallery_back {
+  width: 5%;
   position: absolute;
   bottom: 40%;
+  cursor: pointer;
 }
-#gallery_forward{
+#gallery_forward {
+  width: 5%;
   position: absolute;
-  /* transform: rotate(90deg); */
+  transform: rotate(180deg);
   bottom: 40%;
-  right: 0;
+  right: 0px;
+  cursor: pointer;
 }
+
 
 /* MEDIA QUERIES */
 /* OVER 800PX */
