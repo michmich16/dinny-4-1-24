@@ -1,9 +1,9 @@
 // THE JAVASCRIPT
 
 // cookie modal
-let cookieModal = document.getElementById("Cookie_container")
-document.getElementById("Cookie_container").style.display ="block";
-document.getElementById("myBody").classList.toggle("noScroll");
+// let cookieModal = document.getElementById("Cookie_container") //declare cookie_container as cookieModal
+document.getElementById("Cookie_container").style.display = "block"; //show cookie_container
+document.getElementById("myBody").classList.toggle("noScroll"); //block scrolling
 
 
 // displayModal("Cookie_container");
@@ -30,8 +30,8 @@ function closeModal(id) {
 
 
 //Reset scroll top found on stackoverflow
-// history.scrollRestoration = "manual";
+history.scrollRestoration = "manual";
 
-// $(window).on('beforeunload', function(){
-//       $(window).scrollTop(0);
-// });
+$(window).on('beforeunload', function () {
+    $(window).scrollTop(0);
+});
