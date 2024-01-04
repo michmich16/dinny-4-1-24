@@ -29,8 +29,8 @@ function closeModal(id) {
 
 
 //Reset scroll top found on stackoverflow
-history.scrollRestoration = "manual";
+// history.scrollRestoration = "manual";
 
-$(window).on('beforeunload', function(){
-      $(window).scrollTop(0);
-});
+// $(window).on('beforeunload', function(){
+//       $(window).scrollTop(0);
+// });
