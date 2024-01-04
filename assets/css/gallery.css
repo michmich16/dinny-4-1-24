@@ -12,8 +12,18 @@
   position: relative;
   overflow: hidden;
 }
-.section-gallery img{
+#gallery_image{
+  position: relative;
+}
+#gallery_back{
   position: absolute;
+  width: 40%;
+  transform: rotate(90deg);
+}
+#gallery_forward{
+  position: absolute;
+  width: 40%;
+  transform: rotate(270deg);
 }
 
 /* MEDIA QUERIES */
