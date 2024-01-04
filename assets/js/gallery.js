@@ -7,7 +7,7 @@ let myGalleryElement = document.getElementById("gallery_image")
 
 let myForwardButton = document.getElementById("gallery_forward")
 
-myForwardButton.addEventListener('click'), (e) => {
+myForwardButton.addEventListener('click', (e) => {
 
     myImageCount++;
 
@@ -15,7 +15,29 @@ myForwardButton.addEventListener('click'), (e) => {
         myImageCount = 0;
     }
     showImage()
-}
+})
+
+let myBackButton =document.getElementById("gallery_back")
+
+myBackButton.addEventListener('click', (e) => {
+
+    myImageCount--;
+
+    if(myImageCount < 0) {
+        myImageCount = myGallery.length -1
+    }
+    showImage()
+})
+
+
+
+
+
+
+
+
+
+
 
 showImage();
 
